@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Avatar, { genConfig } from 'react-nice-avatar';
 import { Triangle } from 'react-loader-spinner';
+import Link from 'next/link';
 
 // useEffect -> pageiig hereglegch duudah vued hamgiin ehend duudagna
 
@@ -45,11 +46,13 @@ function Users() {
         users.map((user) => {
           const config = genConfig(user.email);
           return (
-            <div className="p-5 cursor-pointer hover:bg-gray-200 hover:rounded-lg">
-              <Avatar className="w-32 h-32" {...config} />
-              <h1 className="mt-4">{user.name}</h1>
-              {/* <h3>Email: {user.email}</h3> */}
-            </div>
+            <Link href={`/users/${user.id}`}>
+              <div className="p-5 cursor-pointer hover:bg-gray-200 hover:rounded-lg">
+                <Avatar className="w-32 h-32" {...config} />
+                <h1 className="mt-4">{user.name}</h1>
+                {/* <h3>Email: {user.email}</h3> */}
+              </div>
+            </Link>
           );
         })}
     </section>
