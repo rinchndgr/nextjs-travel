@@ -1,12 +1,15 @@
 import styles from './Header.module.css';
 import ArrowDown from './Icons/ArrowDown';
+import Link from 'next/link';
 
 function Header() {
   return (
     <div className="flex w-full justify-between">
       <h1 className={styles.logo__text}>travelaja</h1>
       <ul className="flex space-x-5 items-center">
-        <li className={`${styles.header__text} !font-bold`}>Home</li>
+        <li className={`${styles.header__text} !font-bold`}>
+          <Link href="/users">Home</Link>
+        </li>
         <li className={styles.header__text}>Discover</li>
         <li className={styles.header__text}>Services</li>
         <li className={styles.header__text}>News</li>
