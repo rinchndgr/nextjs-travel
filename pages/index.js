@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Location from '../components/Icons/ArrowDown';
 import Search from '../components/Icons/Search';
 const img =
-  'https://s3-alpha-sig.figma.com/img/a546/3d79/9951b01521201a6cdc3a04c69b5d5a67?Expires=1676851200&Signature=DCeZOl2bLkHEUvwra1NJB-MiQjfbPaT9lBhiQual2falmX0bVvMW78cFDgPcs~BVe6eIczKlzGY1p88Ylos-vXnd5XdWH7Dw4eGuQDzHOlMGUvCiXp-A3pBEasx6xEeGueAinEgRVr8MIFe5sM3I5GgNMcDra1zCfFQ~2qAT8uFrDJ9isw-46TOHvUOcZ93z-yIvXdBOq5M-DdE41MPJcGCJio2UW4ulhFRAqhLRsi9skOvqcVXsV2Gy1Uz7RQ1CQIPexWPMUt3IIswYb8cJaGhRoGSb-PYMR0Mr5qHWQI256cg07VlC58KOfCzCSq9FFdy3d13dQ2Lm4Zf5q6giIQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4';
+  'https://s3-alpha-sig.figma.com/img/a546/3d79/9951b01521201a6cdc3a04c69b5d5a67?Expires=1678665600&Signature=WHheH7ZCQo3sGYhbvsAIviAGa8Gee17ZVnLJNoBtFWTQlBlO5eSao8iVDmj7dsCL2T10U8uV-YJ-PywzocSfRyTZeY8weLhFIQ9~f95B~gQT24fUK7XeNbJUiWEG-a9oEKyG46HcDwJxzzZjQ0coTEDZwriJBOYwbKUKbp2Ek8sGjYaK8M7m5dHbc9lRbAdfDFVGshQccPiOMJ2nq-LDJUkDwgMF7NQIz8wXjExfJvrSOZYFBQ37aKWRrmJ7j6IFJODPZoNR5G9hLK4L-TWtUdgiEbxt0DptXMIXVnnTl-OfVEEJwraF9Qd9VjyXCksHgOF8z203~WypATtFgY1W-A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4';
 
 function Home() {
   return (
